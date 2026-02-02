@@ -3,7 +3,6 @@ from discord.ext import commands, tasks
 from discord import Role, app_commands
 from dotenv import load_dotenv
 from stocks import get_all_stocks
-from stockview import StockView
 from constants import *
 from datetime import datetime, timedelta
 import json
